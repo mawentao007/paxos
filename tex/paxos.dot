@@ -1,0 +1,142 @@
+digraph paxos{
+	node[
+		fontsize="8"
+		shape="record"
+		style="filled"
+		];
+	"proposer"[
+		label = "proposer  id，值队列，\n准备状态实例队列，接受状态实例队列"
+		fillcolor = "yellow"
+		shape="diamond"
+		];
+	"psend"[
+		label = "发送缓冲区"
+		shape="circle"
+		fillcolor = "yellow"
+		];
+
+	"pprepare"[
+		label =" 发送准备请求：一个发送消息队列，\n大小128，里面放满不同正在准备的实例，\n准备成功的实例会被动被取出。"
+		fillcolor = "yellow"
+		];
+	"paccept"[
+		label=" 发送接受请求：如果一个实例准备成功\n，值队列有值，那么这个实例被加入到实例队列末尾并\n从值队列中取出一个，发送器\n从实例队列头部开始发送接收请求。"
+		fillcolor = "yellow"
+		];
+	
+	"preceive"[
+		label="接收缓冲区"
+		shape="circle"
+		fillcolor = "yellow"
+		];
+
+	"prclient"[
+		label="客户端提交请求：将客户端提交的值加上大\n小类型等域放到值队列末尾。"
+		fillcolor = "yellow"
+		];
+	"prprepare"[
+		label="接收prepare请求的回复：从准备队列中找到相应实例，如果回复中的投票号很小，丢弃；\n如果投票号相等，回复中带有值，\n实例中保留最大value_ballot对应的值，并将旧的值放入到proposer的值队列末尾。\n如果回复的投票号更大，则用一个新的投票号发送准备请求。"
+		fillcolor = "yellow"
+		];
+	"praccept"[
+		label="接收accept请求的回复：从实例队列中找到相应实例，\n比较投票的值，统计收到的回复数量，达到多数派，\n那么从实例队列中将此实例移除。如果收到的回复不是当前的投票号，\n将此实例从接受队列移除放入到准备队列头部重新发送准备请求。"
+		fillcolor = "yellow"
+		];
+
+
+	
+
+	"proposer"->"psend";
+	"proposer"->"preceive";
+	"psend"->"pprepare";
+	"psend"->"paccept";
+	"preceive"->"prclient";
+	"preceive"->"prprepare";
+	"preceive"->"praccept";
+
+	"acceptor"[
+		label="acceptor将所有请求存\n储在bdb数据库中，\n事物读写，以请求的实\n例号作为key."
+		shape="diamond"
+		fillcolor = "white"
+		];
+
+	"aprepare"[
+		label="处理准备请求：数据库中查找是\n否已经存在过相应请求的记录，\n如果当前请求的投票号小于数据库中的，丢弃；\n如果数据库中记录显示该请求已经获得最终值，丢弃；\n如果数据库中不存在，将该请求保存。每个记录的字段：\nacceptor_id,iid_t iid,投票号，有值的投票号，\n是否是最终值，值大小，值域。"
+		fillcolor = "white"
+		];
+
+	"aaccept"[
+		label="处理接受请求：从数据库中查找相应请求的记录，\n如果投票号太久，丢弃；否则存储当前请求到数据库中。"
+		fillcolor = "white"
+		];
+
+	"arepeat"[
+		label="处理重复请求：来自learner，\n从数据库中取出相应请求并返回，\n如果记录不为空，再发送一次accept回复。"
+		fillcolor = "white"
+		];
+	
+	"asbf"[
+		label="acceptor发送缓冲区"
+		shape="circle"
+		fillcolor = "white"
+		];
+	
+	"arbf"[
+		label="acceptor接收缓冲区"
+		shape="circle"
+		fillcolor = "white"
+		];
+
+
+	"acceptor"->"aprepare";
+	"acceptor"->"aaccept";
+	"acceptor"->"arepeat";
+	"arbf"->"acceptor";
+	"acceptor"->"asbf";
+
+	"learner"[
+		label="learner有一个实例队列保存接收到的实例"
+		shape="diamond"
+		fillcolor = "green"
+		];
+	"laccept"[
+		label="处理acceptor发来的accept回复，\n更新相应状态确定该实例是否关闭。\n如果实例已经关闭，丢弃；如果实例太超前，还有很多实例未处理\n，丢弃；更新相关实例，统计是否已经达到多数派，\n达到就丢弃请求当前请求，并且实例保存最终值；\n保存更新的提案回复到相应acceptor对应的回复队列中。"
+		fillcolor = "green"
+		];
+
+	"lcheck"[
+		label="检查空洞，对没有完成的\n实例重新发送请求，获取accept的回复。"
+		fillcolor = "green"
+		];
+	
+	"lsbf"[
+		label="learner发送缓冲区"
+		shape="circle"
+		fillcolor = "green"
+		];
+	
+	"lrbf"[
+		label="learner接收缓冲区"
+		shape="circle"
+		fillcolor = "green"
+		];
+
+        "learner"->"lsbf";
+	"lrbf"->"learner";
+	"learner"->"laccept";
+	"learner"->"lcheck";
+
+	"client"[
+		label="client"
+		shape="diamond"
+		fillcolor = "red"
+		];
+	
+	"client"->"preceive";
+
+	"psend"->"arbf";
+	"asbf"->"preceive";
+	"asbf"->"lrbf";
+	"lsbf"->"arbf";
+
+}	
