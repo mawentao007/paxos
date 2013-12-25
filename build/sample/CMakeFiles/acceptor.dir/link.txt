@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g    CMakeFiles/acceptor.dir/acceptor.c.o  -o acceptor -rdynamic ../evpaxos/libevpaxos.so -lm -lrt ../paxos/libpaxos.so -lm -lrt /usr/local/BerkeleyDB.6.0/lib/libdb.so /usr/local/lib/libevent.so -Wl,-rpath,/home/marvin/paxos/libpaxos/basic/build/evpaxos:/home/marvin/paxos/libpaxos/basic/build/paxos:/usr/local/BerkeleyDB.6.0/lib:/usr/local/lib 

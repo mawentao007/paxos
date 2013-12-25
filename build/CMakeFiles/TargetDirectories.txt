@@ -1,0 +1,6 @@
+/home/marvin/paxos/libpaxos/basic/build/sample/CMakeFiles/acceptor.dir
+/home/marvin/paxos/libpaxos/basic/build/sample/CMakeFiles/client.dir
+/home/marvin/paxos/libpaxos/basic/build/evpaxos/CMakeFiles/evpaxos.dir
+/home/marvin/paxos/libpaxos/basic/build/sample/CMakeFiles/learner.dir
+/home/marvin/paxos/libpaxos/basic/build/paxos/CMakeFiles/paxos.dir
+/home/marvin/paxos/libpaxos/basic/build/sample/CMakeFiles/proposer.dir

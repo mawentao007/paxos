@@ -1,0 +1,621 @@
+16 Dec 10:30:40. Connect to 127.0.0.1:8800
+16 Dec 10:30:40. Connect to 127.0.0.1:8801
+16 Dec 10:30:40. Connect to 127.0.0.1:8802
+16 Dec 10:30:40. Connection error 111 (Connection refused)
+16 Dec 10:30:40. Connection error 111 (Connection refused)
+16 Dec 10:30:40. Connection error 111 (Connection refused)
+16 Dec 10:30:42. Connect to 127.0.0.1:8802
+16 Dec 10:30:42. Connect to 127.0.0.1:8801
+16 Dec 10:30:42. Connect to 127.0.0.1:8800
+16 Dec 10:30:42. Connected to 127.0.0.1:8802
+16 Dec 10:30:42. Connected to 127.0.0.1:8801
+16 Dec 10:30:42. Connected to 127.0.0.1:8800
+Paxos instance 1 closed by ballot 10
+hello!
+Paxos instance 2 closed by ballot 10
+hello!
+Paxos instance 3 closed by ballot 10
+hello!
+Paxos instance 4 closed by ballot 10
+hello!
+Paxos instance 5 closed by ballot 10
+hello!
+Paxos instance 6 closed by ballot 10
+hello!
+Paxos instance 7 closed by ballot 10
+hello!
+Paxos instance 8 closed by ballot 10
+hello!
+Paxos instance 9 closed by ballot 10
+hello!
+Paxos instance 10 closed by ballot 10
+hello!
+Paxos instance 11 closed by ballot 10
+hello!
+Paxos instance 12 closed by ballot 10
+hello!
+Paxos instance 13 closed by ballot 10
+hello!
+Paxos instance 14 closed by ballot 10
+hello!
+Paxos instance 15 closed by ballot 10
+hello!
+Paxos instance 16 closed by ballot 10
+hello!
+Paxos instance 17 closed by ballot 10
+hello!
+Paxos instance 18 closed by ballot 10
+hello!
+Paxos instance 19 closed by ballot 10
+hello!
+Paxos instance 20 closed by ballot 10
+hello!
+Paxos instance 21 closed by ballot 10
+hello!
+Paxos instance 22 closed by ballot 10
+hello!
+Paxos instance 23 closed by ballot 10
+hello!
+Paxos instance 24 closed by ballot 10
+hello!
+Paxos instance 25 closed by ballot 10
+hello!
+Paxos instance 26 closed by ballot 10
+hello!
+Paxos instance 27 closed by ballot 10
+hello!
+Paxos instance 28 closed by ballot 10
+hello!
+Paxos instance 29 closed by ballot 10
+hello!
+Paxos instance 30 closed by ballot 10
+hello!
+Paxos instance 31 closed by ballot 10
+hello!
+Paxos instance 32 closed by ballot 10
+hello!
+Paxos instance 33 closed by ballot 10
+hello!
+Paxos instance 34 closed by ballot 10
+hello!
+Paxos instance 35 closed by ballot 10
+hello!
+Paxos instance 36 closed by ballot 10
+hello!
+Paxos instance 37 closed by ballot 10
+hello!
+Paxos instance 38 closed by ballot 10
+hello!
+Paxos instance 39 closed by ballot 10
+hello!
+Paxos instance 40 closed by ballot 10
+hello!
+Paxos instance 41 closed by ballot 10
+hello!
+Paxos instance 42 closed by ballot 10
+hello!
+Paxos instance 43 closed by ballot 10
+hello!
+Paxos instance 44 closed by ballot 10
+hello!
+Paxos instance 45 closed by ballot 10
+hello!
+Paxos instance 46 closed by ballot 10
+hello!
+Paxos instance 47 closed by ballot 10
+hello!
+Paxos instance 48 closed by ballot 10
+hello!
+Paxos instance 49 closed by ballot 10
+hello!
+Paxos instance 50 closed by ballot 10
+hello!
+Paxos instance 51 closed by ballot 10
+hello!
+Paxos instance 52 closed by ballot 10
+hello!
+Paxos instance 53 closed by ballot 10
+hello!
+Paxos instance 54 closed by ballot 10
+hello!
+Paxos instance 55 closed by ballot 10
+hello!
+Paxos instance 56 closed by ballot 10
+hello!
+Paxos instance 57 closed by ballot 10
+hello!
+Paxos instance 58 closed by ballot 10
+hello!
+Paxos instance 59 closed by ballot 10
+hello!
+Paxos instance 60 closed by ballot 10
+hello!
+Paxos instance 61 closed by ballot 10
+hello!
+Paxos instance 62 closed by ballot 10
+hello!
+Paxos instance 63 closed by ballot 10
+hello!
+Paxos instance 64 closed by ballot 10
+hello!
+Paxos instance 65 closed by ballot 10
+hello!
+Paxos instance 66 closed by ballot 10
+hello!
+Paxos instance 67 closed by ballot 10
+hello!
+Paxos instance 68 closed by ballot 10
+hello!
+Paxos instance 69 closed by ballot 10
+hello!
+Paxos instance 70 closed by ballot 10
+hello!
+Paxos instance 71 closed by ballot 10
+hello!
+Paxos instance 72 closed by ballot 10
+hello!
+Paxos instance 73 closed by ballot 10
+hello!
+Paxos instance 74 closed by ballot 10
+hello!
+Paxos instance 75 closed by ballot 10
+hello!
+Paxos instance 76 closed by ballot 10
+hello!
+Paxos instance 77 closed by ballot 10
+hello!
+Paxos instance 78 closed by ballot 10
+hello!
+Paxos instance 79 closed by ballot 10
+hello!
+Paxos instance 80 closed by ballot 10
+hello!
+Paxos instance 81 closed by ballot 10
+hello!
+Paxos instance 82 closed by ballot 10
+hello!
+Paxos instance 83 closed by ballot 10
+hello!
+Paxos instance 84 closed by ballot 10
+hello!
+Paxos instance 85 closed by ballot 10
+hello!
+Paxos instance 86 closed by ballot 10
+hello!
+Paxos instance 87 closed by ballot 10
+hello!
+Paxos instance 88 closed by ballot 10
+hello!
+Paxos instance 89 closed by ballot 10
+hello!
+Paxos instance 90 closed by ballot 10
+hello!
+Paxos instance 91 closed by ballot 10
+hello!
+Paxos instance 92 closed by ballot 10
+hello!
+Paxos instance 93 closed by ballot 10
+hello!
+Paxos instance 94 closed by ballot 10
+hello!
+Paxos instance 95 closed by ballot 10
+hello!
+Paxos instance 96 closed by ballot 10
+hello!
+Paxos instance 97 closed by ballot 10
+hello!
+Paxos instance 98 closed by ballot 10
+hello!
+Paxos instance 99 closed by ballot 10
+hello!
+Paxos instance 100 closed by ballot 10
+hello!
+Paxos instance 101 closed by ballot 10
+hello!
+Paxos instance 102 closed by ballot 10
+hello!
+Paxos instance 103 closed by ballot 10
+hello!
+Paxos instance 104 closed by ballot 10
+hello!
+Paxos instance 105 closed by ballot 10
+hello!
+Paxos instance 106 closed by ballot 10
+hello!
+Paxos instance 107 closed by ballot 10
+hello!
+Paxos instance 108 closed by ballot 10
+hello!
+Paxos instance 109 closed by ballot 10
+hello!
+Paxos instance 110 closed by ballot 10
+hello!
+Paxos instance 111 closed by ballot 10
+hello!
+Paxos instance 112 closed by ballot 10
+hello!
+Paxos instance 113 closed by ballot 10
+hello!
+Paxos instance 114 closed by ballot 10
+hello!
+Paxos instance 115 closed by ballot 10
+hello!
+Paxos instance 116 closed by ballot 10
+hello!
+Paxos instance 117 closed by ballot 10
+hello!
+Paxos instance 118 closed by ballot 10
+hello!
+Paxos instance 119 closed by ballot 10
+hello!
+Paxos instance 120 closed by ballot 10
+hello!
+Paxos instance 121 closed by ballot 10
+hello!
+Paxos instance 122 closed by ballot 10
+hello!
+Paxos instance 123 closed by ballot 10
+hello!
+Paxos instance 124 closed by ballot 10
+hello!
+Paxos instance 125 closed by ballot 10
+hello!
+Paxos instance 126 closed by ballot 10
+hello!
+Paxos instance 127 closed by ballot 10
+hello!
+Paxos instance 128 closed by ballot 10
+hello!
+Paxos instance 129 closed by ballot 10
+hello!
+Paxos instance 130 closed by ballot 10
+hello!
+Paxos instance 131 closed by ballot 10
+hello!
+Paxos instance 132 closed by ballot 10
+hello!
+Paxos instance 133 closed by ballot 10
+hello!
+Paxos instance 134 closed by ballot 10
+hello!
+Paxos instance 135 closed by ballot 10
+hello!
+Paxos instance 136 closed by ballot 10
+hello!
+Paxos instance 137 closed by ballot 10
+hello!
+Paxos instance 138 closed by ballot 10
+hello!
+Paxos instance 139 closed by ballot 10
+hello!
+Paxos instance 140 closed by ballot 10
+hello!
+Paxos instance 141 closed by ballot 10
+hello!
+Paxos instance 142 closed by ballot 10
+hello!
+Paxos instance 143 closed by ballot 10
+hello!
+Paxos instance 144 closed by ballot 10
+hello!
+Paxos instance 145 closed by ballot 10
+hello!
+Paxos instance 146 closed by ballot 10
+hello!
+Paxos instance 147 closed by ballot 10
+hello!
+Paxos instance 148 closed by ballot 10
+hello!
+Paxos instance 149 closed by ballot 10
+hello!
+Paxos instance 150 closed by ballot 10
+hello!
+Paxos instance 151 closed by ballot 10
+hello!
+Paxos instance 152 closed by ballot 10
+hello!
+Paxos instance 153 closed by ballot 10
+hello!
+Paxos instance 154 closed by ballot 10
+hello!
+Paxos instance 155 closed by ballot 10
+hello!
+Paxos instance 156 closed by ballot 10
+hello!
+Paxos instance 157 closed by ballot 10
+hello!
+Paxos instance 158 closed by ballot 10
+hello!
+Paxos instance 159 closed by ballot 10
+hello!
+Paxos instance 160 closed by ballot 10
+hello!
+Paxos instance 161 closed by ballot 10
+hello!
+Paxos instance 162 closed by ballot 10
+hello!
+Paxos instance 163 closed by ballot 10
+hello!
+Paxos instance 164 closed by ballot 10
+hello!
+Paxos instance 165 closed by ballot 10
+hello!
+Paxos instance 166 closed by ballot 10
+hello!
+Paxos instance 167 closed by ballot 10
+hello!
+Paxos instance 168 closed by ballot 10
+hello!
+Paxos instance 169 closed by ballot 10
+hello!
+Paxos instance 170 closed by ballot 10
+hello!
+Paxos instance 171 closed by ballot 10
+hello!
+Paxos instance 172 closed by ballot 10
+hello!
+Paxos instance 173 closed by ballot 10
+hello!
+Paxos instance 174 closed by ballot 10
+hello!
+Paxos instance 175 closed by ballot 10
+hello!
+Paxos instance 176 closed by ballot 10
+hello!
+Paxos instance 177 closed by ballot 10
+hello!
+Paxos instance 178 closed by ballot 10
+hello!
+Paxos instance 179 closed by ballot 10
+hello!
+Paxos instance 180 closed by ballot 10
+hello!
+Paxos instance 181 closed by ballot 10
+hello!
+Paxos instance 182 closed by ballot 10
+hello!
+Paxos instance 183 closed by ballot 10
+hello!
+Paxos instance 184 closed by ballot 10
+hello!
+Paxos instance 185 closed by ballot 10
+hello!
+Paxos instance 186 closed by ballot 10
+hello!
+Paxos instance 187 closed by ballot 10
+hello!
+Paxos instance 188 closed by ballot 10
+hello!
+Paxos instance 189 closed by ballot 10
+hello!
+Paxos instance 190 closed by ballot 10
+hello!
+Paxos instance 191 closed by ballot 10
+hello!
+Paxos instance 192 closed by ballot 10
+hello!
+Paxos instance 193 closed by ballot 10
+hello!
+Paxos instance 194 closed by ballot 10
+hello!
+Paxos instance 195 closed by ballot 10
+hello!
+Paxos instance 196 closed by ballot 10
+hello!
+Paxos instance 197 closed by ballot 10
+hello!
+Paxos instance 198 closed by ballot 10
+hello!
+Paxos instance 199 closed by ballot 10
+hello!
+Paxos instance 200 closed by ballot 10
+hello!
+Paxos instance 201 closed by ballot 10
+hello!
+Paxos instance 202 closed by ballot 10
+hello!
+Paxos instance 203 closed by ballot 10
+hello!
+Paxos instance 204 closed by ballot 10
+hello!
+Paxos instance 205 closed by ballot 10
+hello!
+Paxos instance 206 closed by ballot 10
+hello!
+Paxos instance 207 closed by ballot 10
+hello!
+Paxos instance 208 closed by ballot 10
+hello!
+Paxos instance 209 closed by ballot 10
+hello!
+Paxos instance 210 closed by ballot 10
+hello!
+Paxos instance 211 closed by ballot 10
+hello!
+Paxos instance 212 closed by ballot 10
+hello!
+Paxos instance 213 closed by ballot 10
+hello!
+Paxos instance 214 closed by ballot 10
+hello!
+Paxos instance 215 closed by ballot 10
+hello!
+Paxos instance 216 closed by ballot 10
+hello!
+Paxos instance 217 closed by ballot 10
+hello!
+Paxos instance 218 closed by ballot 10
+hello!
+Paxos instance 219 closed by ballot 10
+hello!
+Paxos instance 220 closed by ballot 10
+hello!
+Paxos instance 221 closed by ballot 10
+hello!
+Paxos instance 222 closed by ballot 10
+hello!
+Paxos instance 223 closed by ballot 10
+hello!
+Paxos instance 224 closed by ballot 10
+hello!
+Paxos instance 225 closed by ballot 10
+hello!
+Paxos instance 226 closed by ballot 10
+hello!
+Paxos instance 227 closed by ballot 10
+hello!
+Paxos instance 228 closed by ballot 10
+hello!
+Paxos instance 229 closed by ballot 10
+hello!
+Paxos instance 230 closed by ballot 10
+hello!
+Paxos instance 231 closed by ballot 10
+hello!
+Paxos instance 232 closed by ballot 10
+hello!
+Paxos instance 233 closed by ballot 10
+hello!
+Paxos instance 234 closed by ballot 10
+hello!
+Paxos instance 235 closed by ballot 10
+hello!
+Paxos instance 236 closed by ballot 10
+hello!
+Paxos instance 237 closed by ballot 10
+hello!
+Paxos instance 238 closed by ballot 10
+hello!
+Paxos instance 239 closed by ballot 10
+hello!
+Paxos instance 240 closed by ballot 10
+hello!
+Paxos instance 241 closed by ballot 10
+hello!
+Paxos instance 242 closed by ballot 10
+hello!
+Paxos instance 243 closed by ballot 10
+hello!
+Paxos instance 244 closed by ballot 10
+hello!
+Paxos instance 245 closed by ballot 10
+hello!
+Paxos instance 246 closed by ballot 10
+hello!
+Paxos instance 247 closed by ballot 10
+hello!
+Paxos instance 248 closed by ballot 10
+hello!
+Paxos instance 249 closed by ballot 10
+hello!
+Paxos instance 250 closed by ballot 10
+hello!
+Paxos instance 251 closed by ballot 10
+hello!
+Paxos instance 252 closed by ballot 10
+hello!
+Paxos instance 253 closed by ballot 10
+hello!
+Paxos instance 254 closed by ballot 10
+hello!
+Paxos instance 255 closed by ballot 10
+hello!
+Paxos instance 256 closed by ballot 10
+hello!
+Paxos instance 257 closed by ballot 10
+hello!
+Paxos instance 258 closed by ballot 10
+hello!
+Paxos instance 259 closed by ballot 10
+hello!
+Paxos instance 260 closed by ballot 10
+hello!
+Paxos instance 261 closed by ballot 10
+hello!
+Paxos instance 262 closed by ballot 10
+hello!
+Paxos instance 263 closed by ballot 10
+hello!
+Paxos instance 264 closed by ballot 10
+hello!
+Paxos instance 265 closed by ballot 10
+hello!
+Paxos instance 266 closed by ballot 10
+hello!
+Paxos instance 267 closed by ballot 10
+hello!
+Paxos instance 268 closed by ballot 10
+hello!
+Paxos instance 269 closed by ballot 10
+hello!
+Paxos instance 270 closed by ballot 10
+hello!
+Paxos instance 271 closed by ballot 10
+hello!
+Paxos instance 272 closed by ballot 10
+hello!
+Paxos instance 273 closed by ballot 10
+hello!
+Paxos instance 274 closed by ballot 10
+hello!
+Paxos instance 275 closed by ballot 10
+hello!
+Paxos instance 276 closed by ballot 10
+hello!
+Paxos instance 277 closed by ballot 10
+hello!
+Paxos instance 278 closed by ballot 10
+hello!
+Paxos instance 279 closed by ballot 10
+hello!
+Paxos instance 280 closed by ballot 10
+hello!
+Paxos instance 281 closed by ballot 10
+hello!
+Paxos instance 282 closed by ballot 10
+hello!
+Paxos instance 283 closed by ballot 10
+hello!
+Paxos instance 284 closed by ballot 10
+hello!
+Paxos instance 285 closed by ballot 10
+hello!
+Paxos instance 286 closed by ballot 10
+hello!
+Paxos instance 287 closed by ballot 10
+hello!
+Paxos instance 288 closed by ballot 10
+hello!
+Paxos instance 289 closed by ballot 10
+hello!
+Paxos instance 290 closed by ballot 10
+hello!
+Paxos instance 291 closed by ballot 10
+hello!
+Paxos instance 292 closed by ballot 10
+hello!
+Paxos instance 293 closed by ballot 10
+hello!
+Paxos instance 294 closed by ballot 10
+hello!
+Paxos instance 295 closed by ballot 10
+hello!
+Paxos instance 296 closed by ballot 10
+hello!
+Paxos instance 297 closed by ballot 10
+hello!
+Paxos instance 298 closed by ballot 10
+hello!
+Paxos instance 299 closed by ballot 10
+hello!
+Paxos instance 300 closed by ballot 10
+hello!
+Paxos instance 301 closed by ballot 10
+hello!
+Paxos instance 302 closed by ballot 10
+hello!
+Paxos instance 303 closed by ballot 10
+hello!
+Paxos instance 304 closed by ballot 10
+hello!
+Caught signal 2

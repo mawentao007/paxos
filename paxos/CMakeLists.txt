@@ -1,0 +1,25 @@
+include_directories(${CMAKE_SOURCE_DIR}/paxos/include)
+include_directories(${BDB_INCLUDE_DIRS})
+
+SET(LOCAL_SOURCES paxos.c acceptor.c learner.c proposer.c carray.c quorum.c)
+
+if (USE_MEM_STORE)
+	LIST(APPEND LOCAL_SOURCES storage_mem.c)
+else()
+	LIST(APPEND LOCAL_SOURCES storage_bdb.c)
+endif()
+
+add_library(paxos SHARED ${LOCAL_SOURCES})
+
+target_link_libraries(paxos ${LIBPAXOS_LINKER_LIBS})
+
+if (NOT USE_MEM_STORE)
+	target_link_libraries(paxos ${BDB_LIBRARIES})
+endif()
+
+set_target_properties(paxos PROPERTIES
+	INSTALL_NAME_DIR "${CMAKE_INSTALL_PREFIX}/lib")
+
+INSTALL(TARGETS paxos DESTINATION lib)
+INSTALL(FILES include/paxos.h DESTINATION include)
+INSTALL(DIRECTORY include/ DESTINATION include/libpaxos)
